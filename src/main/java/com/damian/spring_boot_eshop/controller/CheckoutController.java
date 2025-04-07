@@ -5,7 +5,6 @@ import com.damian.spring_boot_eshop.dto.PurchaseResponse;
 import com.damian.spring_boot_eshop.service.CheckoutService;
 import org.springframework.web.bind.annotation.*;
 
-@CrossOrigin("http://localhost:4200")
 @RestController
 @RequestMapping("/api/checkout")
 public class CheckoutController {
